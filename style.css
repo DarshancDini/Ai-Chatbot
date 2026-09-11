@@ -1,6 +1,4 @@
-/* -------------------------------------------------
-   Basic reset
-------------------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -17,9 +15,7 @@ body {
   padding: 20px;
 }
 
-/* -------------------------------------------------
-   Main chat container
-------------------------------------------------- */
+
 .chat-app {
   width: 100%;
   max-width: 500px;
@@ -33,9 +29,7 @@ body {
   overflow: hidden;
 }
 
-/* -------------------------------------------------
-   Header
-------------------------------------------------- */
+
 .chat-header {
   background-color: #4c6ef5;
   color: white;
@@ -82,9 +76,7 @@ body {
   background: rgba(255, 255, 255, 0.35);
 }
 
-/* -------------------------------------------------
-   API key section
-------------------------------------------------- */
+
 .api-key-section {
   background: #f0f3ff;
   padding: 12px 16px;
@@ -129,9 +121,7 @@ body {
   background: #3b5bdb;
 }
 
-/* -------------------------------------------------
-   Chat messages area
-------------------------------------------------- */
+
 .chat-messages {
   flex: 1;
   overflow-y: auto;
@@ -196,7 +186,7 @@ body {
   color: #c0392b;
 }
 
-/* Typing indicator (three bouncing dots) */
+
 .typing-dots {
   display: flex;
   gap: 4px;
@@ -219,9 +209,7 @@ body {
   30% { transform: translateY(-4px); opacity: 1; }
 }
 
-/* -------------------------------------------------
-   Bottom input area
-------------------------------------------------- */
+
 .chat-input-area {
   border-top: 1px solid #ddd;
   padding: 10px 12px;
@@ -319,7 +307,7 @@ textarea {
   margin-top: 6px;
 }
 
-/* Scrollbar styling */
+
 .chat-messages::-webkit-scrollbar {
   width: 6px;
 }
